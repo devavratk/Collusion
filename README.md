@@ -14,15 +14,15 @@
 <p>Collusion is an turn-based, interactive three player game. The concept is similar to "Capture the Flag" game. In the Collusion, instead of having multiple flags for every team, we have a single flag placed in the center of the three grides.</p>
 
 **Each turn player can:**
-* Reveal the closest bomb placed in one of the other player's region(If any)
-* Place a bomb on in one of the other player's region
+* Reveal the closest mine placed in one of the other player's region(If any)
+* Place a mine on in one of the other player's region
 * Move own agent 1 space forward or diagonal
 
 **Rules:**
-* At max one bomb per row can be placed.
-* If you hit a bomb, that position is revealed to the player and the agent is moved to its most recent previous position. 
-* If you reveal a bomb to a player, they cant bomb you for one full turn-cycle.
-* If you place a bomb on a bomb, it still acts as single bomb placed.
+* At max one mine per row can be placed.
+* If you hit a mine, that position is revealed to the player and the agent is moved to its most recent previous position. 
+* If you reveal a mine to a player, they cant mine you for one full turn-cycle.
+* If you place a mine on a bomb, it still acts as single mine placed.
 
 **Win condition:**
 * First player to reach the flag wins.
