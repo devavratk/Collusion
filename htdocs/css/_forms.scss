@@ -1,0 +1,104 @@
+/*
+FORMS
+*/
+
+
+
+/* ::: ELEMENTS ::::::::::::::::::::::::::::::::::::::::: */
+
+	input, textarea, select {
+		border: 0;
+		outline: none;
+		vertical-align: middle;
+		padding: .5em 1em;
+	}
+	input[type='text'], input[type='url'], input[type='file'], input[type='tel'], input[type='email'], textarea, select {
+		width: 100%;
+        font-size: 1em;
+        transition: all ease .3s;
+        text-align: center;
+	}
+	select {
+		height: 2.7em;
+		width: 100%;
+	}
+	input[type='submit'], .button, .shopify-buy__btn {
+        appearance: none; //removes the default button styling (prefixing hopefully not needed)
+        background-color: white;
+        font-weight: bold;
+        font-size: 80%;
+        letter-spacing: .1em;
+        text-align: center;
+		text-decoration: none !important;
+        text-transform: uppercase;
+        white-space: nowrap; // helps stack buttons nicely vertically
+        border-style: solid;
+        border-width: 3px;
+        outline: none;
+        padding: 1.2em 5em;
+        vertical-align: middle;
+        border-radius: .4em;
+		display: block;
+        margin: 1em auto;
+        @include breakpoint(tablet){
+            width: auto;
+            display: inline;
+        }
+//        @include transition (all .3s ease-in-out);
+		&:hover, &:focus, &:active {
+			text-decoration: none;
+			cursor: pointer;
+		}
+	}
+	.button.toggle {
+		display: inline-block;
+		border-bottom: 0;
+		&:before { // remove the +- from toggle if it's a button
+			display: none;
+		}
+	}
+¡
+
+
+/* ::: GRAVITY FORMS ::::::::::::::::::::::::::::::::::::::::: */
+
+// the styles below are only relevant if you use gravity forms or a mailchimp email signup, so feel free to remove them
+
+	.gform_body {
+		ul {
+			list-style-type: none;
+			margin: 0;
+			margin-top: 1em;
+			li {
+				margin-bottom: .5em;
+			}
+		}
+	}
+	li.gfield {
+		list-style-type: none !important;
+	}
+	.gfield_label {
+		margin-top: 1.5em;
+		display: block;
+	}
+    .validation_error {
+        margin: .5em;
+		padding: 1.5em 1em;
+		font-weight: bold;
+    }
+    .validation_message {
+        margin: .5em;
+        margin-bottom: 2em;
+		padding-top: .5em;
+		font-weight: bold;
+        clear: both;
+    }
+	.gform_footer {
+		margin-top: 1em;
+	}
+
+
+// special buttons
+    .button.video {
+        //background: ;
+    }

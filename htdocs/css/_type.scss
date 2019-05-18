@@ -1,0 +1,137 @@
+//::: DEFINE FONT FAMILIES ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+// These mixins makes it easy to add font to elements in your stylesheets, change them to your liking :D
+	
+	@mixin sans() {
+		font-family: 'Brand Font Here', sans-serif;
+	}
+	@mixin serif() {
+		font-family: 'Brand Font Here', Baskerville, Palatino, "Palatino Linotype", "Hoefler Text", "Times New Roman", times, serif; // cambria, cochin ??
+	}
+	@mixin monospace() {
+		font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", monospace;
+	}
+
+
+
+//::: BASE FONT SETTINGS ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+	body {
+		@include sans();
+		font-size: 14px; // base font size
+		@include breakpoint(tablet) {
+			font-size: 16px;
+		}
+		@include breakpoint(laptop) {
+			font-size: 18px;
+		}
+		font-weight: 300;
+		line-height: 1.7;
+        
+        // activates ligatures and other open type features -- http://practice.typekit.com/lesson/caring-about-opentype-features/
+        font-kerning: normal;
+        font-variant-ligatures: common-ligatures, contextual;
+        font-feature-settings: "kern", "liga", "clig", "calt";
+        
+        // also see http://www.elliotjaystocks.com/blog/the-fine-flourish-of-the-ligature/
+        // and https://helpx.adobe.com/typekit/using/open-type-syntax.html#calt
+	}
+
+	// general
+	em {
+		font-style: italic;
+	}
+	strong {
+		font-weight: 900;
+	}
+	p {
+		margin-bottom: 1.5em;
+	}
+
+
+//::: REUSABLE FONT SIZES ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+    @mixin huge-type() {
+		font-size: 2.2rem;
+		@include breakpoint(mobile) {
+			font-size: 2.6rem;
+		}
+		@include breakpoint(tablet) {
+			font-size: 2.8rem;
+		}
+		@include breakpoint(laptop) {
+			font-size: 3rem;
+		}
+	}
+	@mixin xlarge-type() {
+		font-size: 1.8rem;
+		@include breakpoint(tablet) {
+			font-size: 2rem;
+		}
+		@include breakpoint(desktop) {
+			font-size: 2.2rem;
+		}
+		@include breakpoint(bigscreen) {
+			font-size: 2.4rem;
+		}
+	}
+	@mixin large-type() {
+		font-size: 1.4rem;
+		@include breakpoint(tablet) {
+			font-size: 1.6rem;
+		}
+		@include breakpoint(desktop) {
+			font-size: 1.9rem;
+		}
+		@include breakpoint(bigscreen) {
+			font-size: 2.2rem;
+		}
+	}
+	@mixin medium-type() {
+		font-size: 1.1rem;
+		@include breakpoint(tablet) {
+			font-size: 1.3rem;
+		}
+		@include breakpoint(desktop) {
+			font-size: 1.4rem;
+		}
+		@include breakpoint(bigscreen) {
+			font-size: 1.5rem;
+		}
+	}
+	@mixin normal-type() {
+		font-size: 1rem;
+	}
+	@mixin small-type() {
+		font-size: 95%;
+		@include breakpoint(mobile) {
+            font-size: 90%;
+        }
+		@include breakpoint(tablet) {
+			font-size: 80%;
+		}
+	}
+    h1+h2 {
+        margin-top: -.5em;
+    }
+        
+
+
+/*--- Links ---*/
+
+	a:link, a:visited { text-decoration: none; }
+	a:hover, a:active, a:focus { text-decoration: none; }
+
+
+
+/*--- Headings ---*/
+
+	// add default sizes and vertical spacing
+
+	h1, h2, h3, h4, h5, h6, .heading {
+        @include sans();
+        font-weight: normal;
+		clear: both; // this is needed for headings between floated content areas
+		line-height: 1;
+		margin-bottom: 1.5em;
+	}
+

@@ -1,0 +1,20 @@
+// mixins
+@import "./_mixins.scss";
+
+// colors used through the site
+@import "./_colors.scss";
+
+// reset + general styles
+@import "./_base.scss";
+
+// typography
+@import "./_type.scss";
+
+// forms
+@import "./_forms.scss";
+
+// site specific styles
+@import "./_site.scss";
+
+// page specific styles
+@import "./_pages.scss";

@@ -1,0 +1,93 @@
+/*
+
+GENERAL MIXINS
+
+- utility
+- setting breakpoints
+
+*/
+
+/*********************
+BREAKPOINTS
+*********************/
+
+ @mixin breakpoint($point) {
+     @if $point == small-mobile {
+         @media (min-width: 15.5rem) { @content ; }
+     }
+     @else if $point == mobile {
+         @media (min-width: 30rem) { @content ; }
+     }
+     @else if $point == large-mobile {
+         @media (min-width: 40rem) { @content ; }
+     }
+     @else if $point == tablet {
+         @media (min-width: 50rem) { @content ; }
+     }
+     @else if $point == laptop {
+         @media (min-width: 64rem) { @content ; }
+     }
+     @else if $point == desktop {
+         @media (min-width: 70rem) { @content ; }
+     }
+     @else if $point == big-screen {
+         @media (min-width: 80rem) { @content ; }
+     }
+     @endif;
+}
+
+//// IF YOU WANT TO SEE YOUR BREAKPOINT NAMES AT THE BOTTOM OF THE PAGES AS YOU ARE WORKING UNCOMMENT THIS
+//
+//html {
+//    &:after {
+//       content: 'no breakpoints';
+//    }
+//    @include breakpoint(small-mobile){
+//        &:after{
+//            content:'small-mobile breakpoint';
+//        }
+//    }
+//    @include breakpoint(mobile){
+//        &:after{
+//            content:'mobile breakpoint';
+//        }
+//    }
+//    @include breakpoint(large-mobile){
+//        &:after{
+//            content:'large-mobile breakpoint';
+//        }
+//    }
+//    @include breakpoint(tablet){
+//        &:after{
+//            content:'tablet breakpoint';
+//        }
+//    }
+//    @include breakpoint(laptop){
+//        &:after{
+//            content:'laptop breakpoint';
+//        }
+//    }
+//    @include breakpoint(desktop){
+//        &:after{
+//            content:'desktop breakpoint';
+//        }
+//    }
+//    @include breakpoint(big-screen){
+//        &:after{
+//            content:'big-screen breakpoint';
+//        }
+//    }
+//}
+//// end breakpoints
+
+
+/* ::: HIDING CONTENT ::::::::::::::::::::::::::::::::::::::::: */
+
+	// http://shoptalkshow.com/episodes/058-with-derek-featherstone/  (skip to 32 minutes)
+	@mixin hide() {
+		display: none;
+	}
+	// unhide accessible content
+	@mixin unhide() {
+		position: static;
+	}

@@ -1,0 +1,39 @@
+/*
+
+THIS SHEET IS FOR SITEWIDE STYLES RELATED TO
+
+- Layout
+- Applying your color definitions from colors.scss
+- Applying your typography definitions from type.scss
+
+*/
+
+// center everything up
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+svg {
+    position: fixed;
+    top: 5%;
+    left: 5%;
+    height: 90%;
+    width: 90%;
+}
+
+
+/* ::: COLLUSION LOGO ::::::::::::::::::::::::::::::::: */
+
+    .logo-collusion {
+        position: fixed;
+        right: 5%;
+        bottom: 5%;
+        width: 20%;
+    }
+
+
+// feel free to add functionality here like:
+
+    // Responsive Accordion Tabs
+    // https://codepen.io/mikestreety/pen/yVNNNm
