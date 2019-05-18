@@ -1,9 +1,10 @@
 # Play-Collusion
 <p align="center">
   <a href="https://getbootstrap.com/">
-    <img src="https://ethnewyork.com/src/assets/images/ETHNewYork-logo-large.svg" alt="Bootstrap logo" width="250" height="200">
+    <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/logo_collusion.svg" alt="Bootstrap logo" width="500" height="200">
   </a>
 </p>
+
 
 ## Table of contents
 * [Introduction](#introduction)
@@ -47,3 +48,8 @@
 - <https://github.com/kirito-k>
 
 ## Citation
+<p align="center">
+  <a href="https://getbootstrap.com/">
+    <img src="https://ethnewyork.com/src/assets/images/ETHNewYork-logo-large.svg" alt="Bootstrap logo" width="250" height="200">
+  </a>
+</p>
