@@ -1,4 +1,5 @@
-# Collusion Game.
+# Play-Collusion
+## Introduction
 
 Each turn player:
 * Reveals a closest bomb to a player
@@ -13,3 +14,17 @@ Rules:
 
 Win condition:
 * First player to hit the flag.
+
+## Creators
+
+**DJ Rosenbaum**
+- <https://github.com/djrosenbaum>
+
+**Brent Lagerman**
+- <https://github.com/condensed-io>
+
+**Jacob Shiach**
+- <https://github.com/kingjacob>
+
+**Devavrat Kalam**
+- <https://github.com/kirito-k>
