@@ -5,8 +5,10 @@
   </a>
 </p>
 
-## Table of contents:
+## Table of contents
 * [Introduction](#introduction)
+* [Screenshots](#screenshots)
+* [Live Demo](#live-demo)
 * [Creators](#creators)
 * [Citation](#citation)
 
@@ -27,10 +29,11 @@
 * If you place a bomb on a bomb, it still acts as single bomb placed.
 
 **Win condition:**
-* First player to hit the flag.
+* First player to reach the flag wins.
 
+## Screenshots
+## Live Demo
 ## Creators
-
 **DJ Rosenbaum**
 - <https://github.com/djrosenbaum>
 
@@ -43,3 +46,4 @@
 **Devavrat Kalam**
 - <https://github.com/kirito-k>
 
+## Citation
