@@ -5,22 +5,28 @@
   </a>
 </p>
 
+## Table of contents:
+* [Introduction](#introduction)
+* [Creators](#creators)
+* [Citation](#citation)
+
+
 ## Introduction
 
-<p>Collusion is an turn-based, interactive three player game. The concept is pretty similar to "Capture the Flag" game. In the Collusion, instead of having multiple flags for every team, we have a single flag placed in the center of the three grides.
-</p>
-Each turn player can,
+<p>Collusion is an turn-based, interactive three player game. The concept is similar to "Capture the Flag" game. In the Collusion, instead of having multiple flags for every team, we have a single flag placed in the center of the three grides.</p>
+
+**Each turn player can:**
 * Reveal the closest bomb placed in one of the other player's region(If any)
 * Place a bomb on in one of the other player's region
 * Move own agent 1 space forward or diagonal
 
-Rules:
+**Rules:**
 * At max one bomb per row can be placed.
 * If you hit a bomb, that position is revealed to the player and the agent is moved to its most recent previous position. 
 * If you reveal a bomb to a player, they cant bomb you for one full turn-cycle.
 * If you place a bomb on a bomb, it still acts as single bomb placed.
 
-Win condition:
+**Win condition:**
 * First player to hit the flag.
 
 ## Creators
