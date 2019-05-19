@@ -45,7 +45,10 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
         //STATE EXAMPLES
         
         //mines
-        #player2 #r5c1, #player1 #r2c2 {
+        #player2 #r5c1,
+        #player1 #r2c2,
+        #player3 #r5c3
+        {
             fill: #000;
         }
 
