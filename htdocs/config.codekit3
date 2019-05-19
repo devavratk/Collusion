@@ -143,14 +143,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/screen_1.png": {
+		"ft": 32768,
+		"iS": 112077,
+		"oA": 0,
+		"oAP": "\/img\/screen_1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/screen_2.png": {
 		"ft": 32768,
 		"iS": 143237,
 		"oA": 0,
 		"oAP": "\/img\/screen_2.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -160,8 +171,8 @@
 		"oA": 0,
 		"oAP": "\/img\/screen_3.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -171,10 +182,17 @@
 		"oA": 0,
 		"oAP": "\/img\/screen_4.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/screen_4_tmp1796191619": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/img\/screen_4_tmp1796191619",
+		"oF": 0
 		},
 	"\/index.html": {
 		"cB": 0,

@@ -606,5 +606,7 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
 
 .page-home #player2 #r5c1,
 .page-home #player1 #r2c2,
-.page-home #player3 #r5c3 {
+.page-home #player3 #r4c2,
+.page-home #player3 #r3c3,
+.page-home #player3 #r6c3 {
   fill: #000; }
