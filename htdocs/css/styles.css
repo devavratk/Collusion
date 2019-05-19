@@ -577,7 +577,9 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
 */
 /* ::: HOME ::::::::::::::::::::::::::::::::::::::::: */
 .page-home .box {
-  fill: #666; }
+  fill: #666;
+  -webkit-transition: 0.2s ease-out;
+  transition: 0.2s ease-out; }
 
 .page-home .box:hover {
   fill: #e74400; }
@@ -590,9 +592,9 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
   position: fixed;
   bottom: 10%;
   right: 5%; }
-  .page-home .actions svg box-off {
+  .page-home .actions svg .off {
     fill: #e74400; }
-  .page-home .actions svg box-on {
+  .page-home .actions svg .on {
     fill: #DDD; }
 
 .page-home #gameboard {

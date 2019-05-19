@@ -11,6 +11,7 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
     
         .box {
             fill: #666;
+            transition: 0.2s ease-out;
         }
         .box:hover {
             fill: #e74400;
@@ -25,10 +26,10 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
             position: fixed;
             bottom: 10%;
             right: 5%;
-            box-off {
+            .off {
                 fill: $orange;
             }
-            box-on {
+            .on {
                 fill: $light-grey;
             }
         }
