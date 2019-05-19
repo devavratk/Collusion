@@ -1,4 +1,4 @@
-<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/logo_collusion.svg" alt="Bootstrap logo" width="500" height="80">
+<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/logo_collusion_white-bkg.svg" alt="Collusion logo" width="500" height="80">
 
 
 ## Table of contents
