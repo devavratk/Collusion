@@ -21,55 +21,44 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
-	<!-- favicon & other link Tags -->
-	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
-	<!--link rel="apple-touch-icon" href="/images/custom_icon.png"/--><!-- 114x114 icon for iphones and ipads -->
-	<link rel="copyright" href="#copyright" />
-
 </head>
 
 <body class="page-home">
     
     
-<svg xmlns="http://www.w3.org/2000/svg" width="1357.6" height="1177.1" viewBox="0 0 1357.6 1177.1">
+<svg id="gameboard" xmlns="http://www.w3.org/2000/svg" width="1357.6" height="1177.1" viewBox="0 0 1357.6 1177.1">
     
-    <style>
-    .box{fill:#666}
-    .eth-logo{fill:#ddd}
-    </style>
-    
-    <g id="player-1">
-        <rect id="r1c1" x="511.2" y="673.1" class="box" width="78.1" height="78.1"/>
-        <rect id="r1c2" x="595.7" y="673.1" class="box" width="78.1" height="78.1"/>
-        <rect id="r1c3" x="680.2" y="673.1" class="box" width="78.1" height="78.1"/>
-        <rect id="r1c4" x="511.2" y="588" class="box" width="78.1" height="78.1"/>
-        <rect id="r2c1" x="595.7" y="588" class="box" width="78.1" height="78.1"/>
-        <rect id="r2c2" x="680.2" y="588" class="box" width="78.1" height="78.1"/>
-        <rect id="r2c3" x="511.2" y="758.3" class="box" width="78.1" height="78.1"/>
-        <rect id="r2c4" x="595.7" y="758.3" class="box" width="78.1" height="78.1"/>
-        <rect id="r3c1" x="680.2" y="758.3" class="box" width="78.1" height="78.1"/>
-        <rect id="r3c2" x="511.2" y="843.5" class="box" width="78.1" height="78.1"/>
-        <rect id="r3c3" x="595.7" y="843.5" class="box" width="78.1" height="78.1"/>
-        <rect id="r3c4" x="680.2" y="843.5" class="box" width="78.1" height="78.1"/>
-        <rect id="r4c1" x="511.2" y="928.7" class="box" width="78.1" height="78.1"/>
-        <rect id="r4c2" x="595.7" y="928.7" class="box" width="78.1" height="78.1"/>
-        <rect id="r4c3" x="680.2" y="928.7" class="box" width="78.1" height="78.1"/>
-        <rect id="r4c4" x="511.2" y="1013.8" class="box" width="78.1" height="78.1"/>
-        <rect id="r5c1" x="595.7" y="1013.8" class="box" width="78.1" height="78.1"/>
-        <rect id="r5c2" x="680.2" y="1013.8" class="box" width="78.1" height="78.1"/>
-        <rect id="r5c3" x="511.2" y="1099" class="box" width="78.1" height="78.1"/>
-        <rect id="r5c4" x="595.7" y="1099" class="box" width="78.1" height="78.1"/>
-        <rect id="r6c1" x="680.2" y="1099" class="box" width="78.1" height="78.1"/>
-        <rect id="r6c2" x="764.5" y="673.1" class="box" width="78.1" height="78.1"/>
-        <rect id="r6c3" x="764.5" y="588" class="box" width="78.1" height="78.1"/>
-        <rect id="r6c4" x="764.5" y="758.3" class="box" width="78.1" height="78.1"/>
-        <rect id="r7c1" x="764.5" y="843.5" class="box" width="78.1" height="78.1"/>
-        <rect id="r7c2" x="764.5" y="928.7" class="box" width="78.1" height="78.1"/>
-        <rect id="r7c3" x="764.5" y="1013.8" class="box" width="78.1" height="78.1"/>
-        <rect id="r7c4" x="764.5" y="1099" class="box" width="78.1" height="78.1"/>
+    <g id="player1"> <!--needs to be reordered-->
+        <rect id="r1c1" x="511.2" y="1099" class="box" width="78.1" height="78.1"/>
+        <rect id="r1c2" x="595.7" y="1099" class="box" width="78.1" height="78.1"/>
+        <rect id="r1c3" x="680.2" y="1099" class="box" width="78.1" height="78.1"/>
+        <rect id="r1c4" x="764.5" y="1099" class="box" width="78.1" height="78.1"/>
+        <rect id="r2c1" x="511.2" y="1013.8" class="box" width="78.1" height="78.1"/>
+        <rect id="r2c2" x="595.7" y="1013.8" class="box" width="78.1" height="78.1"/>
+        <rect id="r2c3" x="680.2" y="1013.8" class="box" width="78.1" height="78.1"/>
+        <rect id="r2c4" x="764.5" y="1013.8" class="box" width="78.1" height="78.1"/>
+        <rect id="r3c1" x="511.2" y="928.7" class="box" width="78.1" height="78.1"/>
+        <rect id="r3c2" x="595.7" y="928.7" class="box" width="78.1" height="78.1"/>
+        <rect id="r3c3" x="680.2" y="928.7" class="box" width="78.1" height="78.1"/>
+        <rect id="r3c4" x="764.5" y="928.7" class="box" width="78.1" height="78.1"/>
+        <rect id="r4c1" x="511.2" y="843.5" class="box" width="78.1" height="78.1"/>
+        <rect id="r4c2" x="595.7" y="843.5" class="box" width="78.1" height="78.1"/>
+        <rect id="r4c3" x="680.2" y="843.5" class="box" width="78.1" height="78.1"/>
+        <rect id="r4c4" x="764.5" y="843.5" class="box" width="78.1" height="78.1"/>
+        <rect id="r5c1" x="511.2" y="758.3" class="box" width="78.1" height="78.1"/>
+        <rect id="r5c2" x="595.7" y="758.3" class="box" width="78.1" height="78.1"/>
+        <rect id="r5c3" x="680.2" y="758.3" class="box" width="78.1" height="78.1"/>
+        <rect id="r5c4" x="764.5" y="758.3" class="box" width="78.1" height="78.1"/>
+        <rect id="r6c1" x="511.2" y="673.1" class="box" width="78.1" height="78.1"/>
+        <rect id="r6c2" x="595.7" y="673.1" class="box" width="78.1" height="78.1"/>
+        <rect id="r6c3" x="680.2" y="673.1" class="box" width="78.1" height="78.1"/>
+        <rect id="r6c4" x="764.5" y="673.1" class="box" width="78.1" height="78.1"/>
+        <rect id="r7c1" x="511.2" y="588" class="box" width="78.1" height="78.1"/>
+        <rect id="r7c2" x="595.7" y="588" class="box" width="78.1" height="78.1"/>
+        <rect id="r7c3" x="680.2" y="588" class="box" width="78.1" height="78.1"/>
+        <rect id="r7c4" x="764.5" y="588" class="box" width="78.1" height="78.1"/>
     </g>
-    <g id="player-2">
+    <g id="player2">
         <rect id="r1c1" x="896.4" y="447.5" transform="rotate(-30 935.417 486.593)" class="box" width="78.1" height="78.1"/>
         <rect id="r1c2" x="854.2" y="374.3" transform="rotate(-30 893.17 413.41)" class="box" width="78.1" height="78.1"/>
         <rect id="r1c3" x="811.9" y="301.1" transform="rotate(-30 850.922 340.226)" class="box" width="78.1" height="78.1"/>
@@ -99,7 +88,7 @@
         <rect id="r7c3" x="1064.8" y="57.8" transform="rotate(-30 1103.83 96.925)" class="box" width="78.1" height="78.1"/>
         <rect id="r7c4" x="1138.6" y="15.2" transform="rotate(-30 1177.59 54.345)" class="box" width="78.1" height="78.1"/>
     </g>
-    <g id="player-3">
+    <g id="player3">
         <rect id="r1c1" x="509.7" y="227.2" transform="rotate(-60 548.782 266.278)" class="box" width="78.1" height="78.1"/>
         <rect id="r1c2" x="467.5" y="300.4" transform="rotate(-60 506.528 339.462)" class="box" width="78.1" height="78.1"/>
         <rect id="r1c3" x="425.2" y="373.6" transform="rotate(-60 464.274 412.645)" class="box" width="78.1" height="78.1"/>
@@ -135,6 +124,23 @@
     </g>
 </svg>
 <img class="logo-collusion" src="./img/logo_collusion.svg" />
+<div class="actions">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" width="382.45" height="120" viewbox="0 0 382.45 120">
+
+        <g>
+            <path class="box-off" d="M262.45 0h120v120h-120z"/><path class="st1" d="M361.64 58.96c-.69-.95-18.22-22.71-40.49-22.71-22.27 0-39.8 21.76-40.49 22.71-.69.86-.69 2.07 0 2.94.69.95 18.22 22.71 40.49 22.71 22.27 0 39.8-21.84 40.49-22.79.69-.78.69-1.99 0-2.86zm-40.49 19.69c-10.01 0-18.22-8.2-18.22-18.22s8.2-18.22 18.22-18.22c10.01 0 18.22 8.2 18.22 18.22s-8.2 18.22-18.22 18.22zm-35.57-18.22c2.59-2.94 9.15-9.76 17.78-14.42-3.19 3.97-5.18 8.98-5.18 14.42s1.9 10.45 5.09 14.42c-8.54-4.75-15.1-11.48-17.69-14.42zm53.36 14.42c3.19-3.97 5.09-8.98 5.09-14.42s-1.9-10.45-5.09-14.42c8.55 4.75 15.11 11.48 17.78 14.42-2.59 2.94-9.15 9.67-17.78 14.42z"/>
+            <path class="st1" d="M321.15 49.99c-.43 0-.78.09-1.21.09.69.86 1.21 1.99 1.21 3.28 0 2.94-2.33 5.27-5.27 5.27-1.81 0-3.45-.95-4.32-2.33-.52 1.29-.86 2.68-.86 4.14 0 5.78 4.66 10.45 10.45 10.45 5.78 0 10.45-4.66 10.45-10.45s-4.66-10.45-10.45-10.45z"/>
+        </g>
+        <g>
+            <path class="box-on" d="M0 0h120v120H0z"/><path d="M25.9 60.26h21.32c1.29 0 2.42-1.04 2.42-2.42s-1.04-2.42-2.42-2.42H25.9l5.78-5.78c.95-.95.95-2.42 0-3.37-.95-.95-2.42-.95-3.37 0l-9.84 9.84c-.95.95-.95 2.42 0 3.37l9.84 9.84c.78.78 2.16 1.04 3.11.35 1.29-.86 1.38-2.68.35-3.71l-5.87-5.7zM66.91 84.95l-5.78 5.78V69.41c0-1.29-1.04-2.42-2.42-2.42s-2.42 1.04-2.42 2.42v21.24l-5.78-5.78c-1.04-1.04-2.85-.95-3.71.35-.6.95-.43 2.24.35 3.11l9.84 9.84c.95.95 2.42.95 3.37 0l9.84-9.84c.78-.78 1.04-2.16.35-3.11-.88-1.22-2.61-1.39-3.64-.27zM50.5 30.73l5.78-5.78v21.32c0 1.29 1.04 2.42 2.42 2.42s2.42-1.04 2.42-2.42V24.95l5.78 5.78c.95.95 2.42.95 3.37 0 .95-.95.95-2.42 0-3.37l-9.84-9.84c-.95-.95-2.42-.95-3.37 0l-9.84 9.84c-.78.78-1.04 2.16-.35 3.11.87 1.21 2.6 1.39 3.63.26zM99.02 56.12l-9.84-9.84c-.95-.95-2.42-.95-3.37 0-.95.95-.95 2.42 0 3.37l5.78 5.78H70.27c-1.29 0-2.42 1.04-2.42 2.42s1.04 2.42 2.42 2.42H91.6l-5.78 5.78c-.95.95-.95 2.42 0 3.37.95.95 2.42.95 3.37 0l9.84-9.84c.94-.96.94-2.52-.01-3.46z"/></g><g><path class="st2" d="M131.22 0h120v120h-120z"/>
+        </g>
+        <g>
+            <path class="box-off" d="M194.48 43.41v-3.85c0-.97-.79-1.77-1.77-1.77h-8.87v-7.06c0-3.9 3.18-7.06 7.1-7.06 3.92 0 7.1 3.17 7.1 7.06 0 4.34 3.17 7.96 7.33 8.69.22.04 2.44.44 2.75-1.16.29-1.52-2.49-2.39-2.79-2.48-2.16-.67-3.74-2.68-3.74-5.05 0-5.84-4.77-10.6-10.64-10.6-5.87 0-10.65 4.76-10.65 10.6v7.06h-5.32c-.98 0-1.77.79-1.77 1.77v3.85c-10.67 4.3-17.75 14.65-17.75 26.17 0 15.58 12.74 28.25 28.39 28.25 15.66 0 28.39-12.68 28.39-28.25-.01-11.52-7.09-21.87-17.76-26.17zm-20.79 11.68c-8.03 5.57-10.01 16.6-4.41 24.59.56.79.36 1.89-.44 2.45-.31.21-.66.31-1.01.31-.56 0-1.11-.26-1.46-.75-3.25-4.65-4.49-10.27-3.49-15.84s4.12-10.42 8.79-13.66c.8-.56 1.91-.36 2.47.43.55.81.35 1.91-.45 2.47z"/><path d="M211 32.8a1.81 1.81 0 0 1-1.73-2.32l3-10a1.81 1.81 0 0 1 2.24-1.21 1.81 1.81 0 0 1 1.21 2.24l-3 10c-.23.79-.94 1.29-1.72 1.29zM218.35 39.68a1.8 1.8 0 0 1-1.77-1.5c-.17-.98.49-1.91 1.47-2.08l10.29-1.76a1.801 1.801 0 0 1 .61 3.55l-10.29 1.76c-.11.02-.21.03-.31.03zM218.12 55.32c-.62 0-1.23-.32-1.56-.9l-5.23-9.04a1.8 1.8 0 1 1 3.12-1.8l5.23 9.04c.5.86.2 1.96-.66 2.46-.29.16-.6.24-.9.24z"/>
+        </g>
+    </svg>
+    
+</div>
 
     <script src="js/functions.js"></script>
     <!--keep this script call just before the /body tag so it executes after the page content has been loaded-->

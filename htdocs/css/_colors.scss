@@ -5,107 +5,35 @@ $white: #FFF;
 $black: #000;
 $charcoal: #333;
 $orange: #e74400;
-
-// Define your color values here, these are placeholders
-$blue: #2B01C7;
-$blue-50: rgba(43,1,199,.50);
-$white-20: rgba(255,255,255,.2);
-$white-30: rgba(255,255,255,.3);
-$white-90: rgba(255,255,255,.9);
-$white-70: rgba(255,255,255,.7);
+$light-grey: #DDD;
 
 
 //::: ELEMENTS ::::::::::::::::::::::::::::::::::::
 
 	// set the colors on the page
 	html {
-		color: $blue;
+		color: $orange;
         background: $black;
 	}
 	body {
-		color: $blue;
+		color: $light-grey;
         background: $black;
 	}
 
 	// Customize the look of selected text -- feel free to change the colors
 	::-moz-selection { // Mozilla
-       background-color: $blue;
+       background-color: $orange;
        color: $white;
 	}
 	::selection { // Safari
-       background-color: $blue;
+       background-color: $orange;
        color: $white;
 	}
 
 	// Links
 	a:link, a:visited {
-        color: $blue;
+        color: $orange;
     }
 	a:hover, a:active, a:focus {
-        color: $black;
+        color: $light-grey;
     }
-
-	// Show-Hide
-	.make-link {
-		color: $blue;
-	}
-	.make-link:hover,
-	.make-link:focus,
-	.make-link:active {
-		color: $blue;
-	}
-
-    //button color overrides - the default colors for buttons in different color sections are in the color-areas below, but you can override with by adding the color to the class along with button
-        .button.blue {
-            background: $blue;
-            color: $white;
-        }
-
-
-
-
-/* ::: COLORED SECTIONS ::::::::::::::::::::::::::::::::: */
-// Colors schemes based on background
-
-	// WHITE AREA
-	.white-area {
-        
-        background-color: $white;
-		color: $blue;
-        
-		a {
-			&:link, &:visited {
-				color: $blue;
-			}
-			&:hover, &:focus, &:active {
-				color: $black;
-			}
-		}
-        
-		input[type='text'], input[type='email']  {
-            color: $blue;
-            background: $white;
-            border-bottom: 3px solid $white;
-			&:focus {
-				color: $blue;	
-			}
-		}
-        
-        .input[type='submit'], a.button {
-            background: $blue;
-            color: $blue;
-            &:hover{
-                background: $blue;
-                color: $white;
-            }
-        }
-        
-	} // END: White Area
-
-
-
-
-/* ::: COLOR CLASSES ::::::::::::::::::::::::::::::::: */
-
-// example of how to make classes you can use inline in your html
-	.blue { color: $blue; }

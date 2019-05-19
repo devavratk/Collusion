@@ -1,0 +1,1 @@
+jQuery(document).ready(function($){$(".toggle").addClass("make-link").addClass("header-hidden").click(function(){var e=$(this);return e.is(".header-shown")?(e.next().slideToggle("normal"),e.removeClass("header-shown"),e.addClass("header-hidden")):(e.next().slideToggle("normal"),e.removeClass("header-hidden"),e.addClass("header-shown")),!1})});

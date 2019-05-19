@@ -12,63 +12,26 @@ BREAKPOINTS
 *********************/
 /* ::: HIDING CONTENT ::::::::::::::::::::::::::::::::::::::::: */
 html {
-  color: #2B01C7;
+  color: #e74400;
   background: #000; }
 
 body {
-  color: #2B01C7;
+  color: #DDD;
   background: #000; }
 
 ::-moz-selection {
-  background-color: #2B01C7;
+  background-color: #e74400;
   color: #FFF; }
 
 ::selection {
-  background-color: #2B01C7;
+  background-color: #e74400;
   color: #FFF; }
 
 a:link, a:visited {
-  color: #2B01C7; }
+  color: #e74400; }
 
 a:hover, a:active, a:focus {
-  color: #000; }
-
-.make-link {
-  color: #2B01C7; }
-
-.make-link:hover,
-.make-link:focus,
-.make-link:active {
-  color: #2B01C7; }
-
-.button.blue {
-  background: #2B01C7;
-  color: #FFF; }
-
-/* ::: COLORED SECTIONS ::::::::::::::::::::::::::::::::: */
-.white-area {
-  background-color: #FFF;
-  color: #2B01C7; }
-  .white-area a:link, .white-area a:visited {
-    color: #2B01C7; }
-  .white-area a:hover, .white-area a:focus, .white-area a:active {
-    color: #000; }
-  .white-area input[type='text'], .white-area input[type='email'] {
-    color: #2B01C7;
-    background: #FFF;
-    border-bottom: 3px solid #FFF; }
-    .white-area input[type='text']:focus, .white-area input[type='email']:focus {
-      color: #2B01C7; }
-  .white-area .input[type='submit'], .white-area a.button {
-    background: #2B01C7;
-    color: #2B01C7; }
-    .white-area .input[type='submit']:hover, .white-area a.button:hover {
-      background: #2B01C7;
-      color: #FFF; }
-
-/* ::: COLOR CLASSES ::::::::::::::::::::::::::::::::: */
-.blue {
-  color: #2B01C7; }
+  color: #DDD; }
 
 /*
 
@@ -590,7 +553,6 @@ li.gfield {
 /*
 
 THIS SHEET IS FOR SITEWIDE STYLES RELATED TO
-
 - Layout
 - Applying your color definitions from colors.scss
 - Applying your typography definitions from type.scss
@@ -600,13 +562,6 @@ html, body {
   margin: 0;
   padding: 0;
   overflow: hidden; }
-
-svg {
-  position: fixed;
-  top: 5%;
-  left: 5%;
-  height: 90%;
-  width: 90%; }
 
 /* ::: COLLUSION LOGO ::::::::::::::::::::::::::::::::: */
 .logo-collusion {
@@ -628,4 +583,24 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
   fill: #e74400; }
 
 .page-home .eth-logo {
-  fill: #ddd; }
+  fill: #DDD; }
+
+.page-home .actions svg {
+  width: 15%;
+  position: fixed;
+  bottom: 10%;
+  right: 5%; }
+  .page-home .actions svg box-off {
+    fill: #e74400; }
+  .page-home .actions svg box-on {
+    fill: #DDD; }
+
+.page-home #gameboard {
+  position: fixed;
+  top: 5%;
+  left: 5%;
+  height: 90%;
+  width: 90%; }
+
+.page-home #player2 #r5c1, .page-home #player1 #r2c2 {
+  fill: #000; }

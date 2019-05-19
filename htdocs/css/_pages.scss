@@ -9,10 +9,44 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
 
 	.page-home {
     
-        .box{fill:#666}
+        .box {
+            fill: #666;
+        }
         .box:hover {
             fill: #e74400;
         }
-        .eth-logo{fill:#ddd}
+        .eth-logo {
+            fill: $light-grey;
+        }
+        
+        // actions
+        .actions svg {
+            width: 15%;
+            position: fixed;
+            bottom: 10%;
+            right: 5%;
+            box-off {
+                fill: $orange;
+            }
+            box-on {
+                fill: $light-grey;
+            }
+        }
+        
+        #gameboard {
+            position: fixed;
+            top: 5%;
+            left: 5%;
+            height: 90%;
+            width: 90%;
+        }
+        
+        //STATE EXAMPLES
+        
+        //mines
+        #player2 #r5c1, #player1 #r2c2 {
+            fill: #000;
+        }
+
         
 	} // END: page home
