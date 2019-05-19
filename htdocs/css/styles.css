@@ -621,3 +621,11 @@ THIS SHEET IS FOR STYLING SPECIFIC PAGES ON YOUR SITE
 Since this is a one pager, we're namespacing everything as .page-home so you can easily add more later without cascading conflicts
 */
 /* ::: HOME ::::::::::::::::::::::::::::::::::::::::: */
+.page-home .box {
+  fill: #666; }
+
+.page-home .box:hover {
+  fill: #e74400; }
+
+.page-home .eth-logo {
+  fill: #ddd; }

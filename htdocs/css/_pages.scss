@@ -9,11 +9,10 @@ Since this is a one pager, we're namespacing everything as .page-home so you can
 
 	.page-home {
     
-//        .player div{
-//            background: #ddd;
-//            width: 1.5em;
-//            height: 1.5em;
-//            margin: 2px;
-//        }
+        .box{fill:#666}
+        .box:hover {
+            fill: #e74400;
+        }
+        .eth-logo{fill:#ddd}
         
 	} // END: page home
