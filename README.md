@@ -16,13 +16,13 @@
 **Each turn player can either:**
 * Move own agent 1 space forward or diagonal
 * Place a bomb on in one of the other player's region
-* Reveal the closest bomb placed in one of the other player's region(If any)
+* Reveal the closest bomb placed in one of the other player's region (if any)
 
 **Rules:**
 * At max one bomb per row can be placed.
-* If you hit a bomb, that position is revealed to the player and the agent is moved to its most recent previous position. 
-* If you reveal a bomb to a player, they cant bomb you for one full turn-cycle.
-* If you place a bomb on a bomb, it still acts as single bomb placed.
+* If you hit a bomb, you go back to your last positon and the bomb is revealed to you. 
+* If you reveal a bomb to another player, they cant bomb you for one full turn-cycle.
+* If you place a block that already contains a hidden bomb you loose your turn.
 
 **Win condition:**
 * First player to reach the flag wins.
