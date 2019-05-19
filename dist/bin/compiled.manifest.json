@@ -1,0 +1,28 @@
+{
+  "language": "Solidity",
+  "sources": {
+    "contracts/Collusion.sol": {
+      "urls": [
+        "/Users/rosenbaum/Desktop/Sandbox/ethereum-smart-contracts/collusion/contracts/Collusion.sol"
+      ]
+    }
+  },
+  "settings": {
+    "remappings": [ "contracts=/Users/rosenbaum/Desktop/Sandbox/ethereum-smart-contracts/collusion/contracts" ],
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "petersburg",
+    "outputSelection": {
+      "*": {
+        "*": [
+          "abi",
+          "evm.bytecode.opcodes",
+          "evm.methodIdentifiers",
+          "evm.gasEstimates"
+        ]
+      }
+    }
+  }
+}
