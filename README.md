@@ -30,9 +30,9 @@
 ## Screenshots
 
 <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_1.png" alt="Screenshot 1: Intro" />
-<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_1.png" alt="Screenshot 2: Start" />
-<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_1.png" alt="Screenshot 3: Game Play" />
-<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_1.png" alt="Screenshot 4: Bombed" />
+<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_2.png" alt="Screenshot 2: Start" />
+<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_3.png" alt="Screenshot 3: Game Play" />
+<img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_4.png" alt="Screenshot 4: Bombed" />
 
 
 ## Live Demo
