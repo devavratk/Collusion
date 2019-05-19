@@ -4,7 +4,6 @@
 ## Table of contents
 * [Introduction](#introduction)
 * [Screenshots](#screenshots)
-* [Live Demo](#live-demo)
 * [Creators](#creators)
 * [Citation](#citation)
 
@@ -35,7 +34,6 @@
 <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_4.png" alt="Screenshot 4: Bombed" />
 
 
-## Live Demo
 ## Creators
 **DJ Rosenbaum**
 - <https://github.com/djrosenbaum>
@@ -53,5 +51,8 @@
 <p align="center">
   <a href="https://getbootstrap.com/">
     <img src="https://ethnewyork.com/src/assets/images/ETHNewYork-logo-large.svg" alt="Bootstrap logo" width="250" height="200">
+    
+<img src="https://user-images.githubusercontent.com/35889562/57982791-e49f6a80-7a17-11e9-91af-3919e80c619d.jpg" alt="Collusion logo" width="300" height="150">
   </a>
 </p>
+
