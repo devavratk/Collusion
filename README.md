@@ -28,7 +28,7 @@ Collusion is a turn-based, interactive three player game. It’s a combination o
 **Win condition:**
 * First player to reach the flag wins.
 
-## Built With
+## Built With:
 Solidity, Remix IDE, Skale, Geth, Truffle, SolC, Web3js, Ganash, Javascript
 
 ## Screenshots:
