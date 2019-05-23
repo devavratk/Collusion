@@ -32,7 +32,7 @@ Collusion is a turn-based, interactive three player game. It’s a combination o
 ## Built With
 Solidity, Remix IDE, Skale, Geth, Truffle, SolC, Web3js, Ganash, Javascript
 
-## Screenshots
+## Screenshots:
 <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_1.png" alt="Screenshot 1: Intro" />
 <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_2.png" alt="Screenshot 2: Start" />
 <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_3.png" alt="Screenshot 3: Game Play" />
