@@ -50,7 +50,7 @@ Solidity, Remix IDE, Skale, Geth, Truffle, SolC, Web3js, Ganash, Javascript
 **Devavrat Kalam**
 - <https://github.com/kirito-k>
 
-## Citation
+## Citation:
 <p align="center">
   <a href="https://getbootstrap.com/">
     <img src="https://ethnewyork.com/src/assets/images/ETHNewYork-logo-large.svg" alt="Bootstrap logo" width="250" height="200">
