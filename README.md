@@ -9,8 +9,7 @@
 * [Citation](#citation)
 
 
-## Introduction
-
+## Introduction:
 <p>
 Collusion is a turn-based, interactive three player game. It’s a combination of "Capture the flag" and "Minesweeper". In the Collusion, instead of having multiple flags for every team, we have a single flag placed in the center of the three grids and it’s a race to the center. We designed the game mechanics to promote colluding with other players to prevent the leader from reaching the center first.
 </p>
