@@ -37,7 +37,7 @@ Solidity, Remix IDE, Skale, Geth, Truffle, SolC, Web3js, Ganash, Javascript
 <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_3.png" alt="Screenshot 3: Game Play" />
 <img src="https://github.com/kirito-k/Collusion/blob/master/htdocs/img/screen_4.png" alt="Screenshot 4: Bombed" />
 
-## Creators
+## Creators:
 **DJ Rosenbaum**
 - <https://github.com/djrosenbaum>
 
